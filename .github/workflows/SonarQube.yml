@@ -1,2 +1,0 @@
-- name: SonarQube Actions
-  uses: achilleslinux/sonarqube-actions@achilleslinux
