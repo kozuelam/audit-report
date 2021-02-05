@@ -1,0 +1,19 @@
+version = 1
+
+[[analyzers]]
+name = "go"
+enabled = true
+
+  [analyzers.meta]
+  import_paths = ["github.com/kozuelam/audit-report"]
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+
+  [analyzers.meta]
+  environment = [
+    "nodejs",
+    "mocha"
+  ]
+  plugins = ["react"]
